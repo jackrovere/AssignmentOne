@@ -19,7 +19,7 @@
                     <a href="InterestingFacts.html">Interesting Facts</a>
                     <a href="EnvironmentalThreats.html">Environmental Threats</a>
                     <a href="https://wildlife-species.canada.ca/species-risk-registry/species/speciesDetails_e.cfm?sid=1173">Species at Risk</a>
-                    <a href="#White Nose Syndrome">White Nose Syndrome</a>
+                    <a href="https://www.alberta.ca/white-nose-syndrome.aspx">White Nose Syndrome</a>
                 </nav>
             </header>
             <main>
@@ -47,7 +47,62 @@
                 </p>
             </article>
             <article>
-                
+                <h2>How You Can Help</h2>
+                <p>
+                    If you're interested in helping out the Little Brown Myotis, please consider donating and spreading the word
+                    about this amazing creature! Thank you!
+                </p>
+                <form method = "GET" action = "WebsiteMain.html" name = "donationForm">
+                    <p class = "form">
+                        Donate:
+                        <label> 5$
+                            <input name = "radio" type = "radio">
+                        </label>
+                        <label> 10$
+                            <input name = "radio" type = "radio">
+                        </label>
+                        <label> 25$
+                            <input name = "radio" type = "radio">
+                        </label>
+                        <label> 50$
+                            <input name = "radio" type = "radio">
+                        </label>
+                        <label> 100$
+                            <input name = "radio" type = "radio">
+                        </label>
+                    </p>
+                    <p class = "form">
+                        <label> Other:
+                            <input name = "amount" type = "number" min = "1">
+                        </label>
+                    </p>
+                    <p>
+                        <label>Student
+                            <input name = "student" type = "checkbox">
+                        </label>
+                        <label>Parent
+                            <input name = "parent" type = "checkbox">
+                        </label>
+                        <label>Biologist
+                            <input name = "biologist" type = "checkbox">
+                        </label>
+                        <label>Have Donated Before
+                            <input name = "historyOfDonation" type = "checkbox">
+                        </label>
+                    </p>
+                    <p class = "form">
+                        <label> Email:<sup>*</sup>
+                            <input name = "email" type = "email" required placeholder = "johnsmith@example.ca">
+                        </label>
+                    </p>
+
+
+
+
+                    <p class = "form">
+                        <input name = "submit" type = "submit">
+                    </p>
+                </form> 
             </article>
         </main>
     </body>

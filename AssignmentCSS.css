@@ -9,9 +9,6 @@ a:visited{
 a:active{
     color: plum;
 }
-.currentPage {
-
-}
 .topBar {
     overflow: hidden;
     background-color: #013220
@@ -36,11 +33,17 @@ p {
     font-size: 16px;
 }
 figure {
-    float: left;
+    float: right;
 }
 body {
     background-color: #daffd4;
     font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+    font-weight: bold;
+}
+sup {
+    color: red;
 }
 
 
