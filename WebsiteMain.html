@@ -91,19 +91,44 @@
                         </label>
                     </p>
                     <p class = "form">
-                        <label> Email:<sup>*</sup>
-                            <input name = "email" type = "email" required placeholder = "johnsmith@example.ca">
-                        </label>
-                    </p>
-
-
-
-
-                    <p class = "form">
                         <input name = "submit" type = "submit">
                     </p>
-                </form> 
+                    <h2>Any Questions?</h2>
+                    <h3>Leave feedback below.</h3>
+                    
+                    <p class = "form">
+                        <label> Subject:<sup>*</sup>
+                            <input name = "subject" type = "text" maxlength = "25" required>
+                        </label>
+                    </p>
+                    <p class = "form">
+                        Body:<sup>*</sup>
+                        <textarea id = "textBox" required>
+
+                        </textarea>
+                    </p>
+                    <p class = "form">
+                        <label> Email:<sup>*</sup>
+                            <input name = "email" type = "email" required 
+                            placeholder = "johnsmith@example.ca" 
+                            pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        </label>
+                    </p>
+                    <p class = "form">
+                        <label>Phone Number:
+                            <input name = "phoneNumber" type = "tel" 
+                            placeholder = "123-456-7890" pattern = "^\d{3}-\d{3}-\d{4}$">
+                        </label>
+                    </p>
+                    <p>
+                        <input name = "submit" type = "submit">
+                        <input name = "reset" type = "reset">
+                    </p>
+                </form>
             </article>
         </main>
+        <footer>
+
+        </footer>
     </body>
 </html>

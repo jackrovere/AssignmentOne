@@ -45,6 +45,10 @@ body {
 sup {
     color: red;
 }
+#textBox {
+    height: 120px;
+    width: 300px;
+}
 
 
   
