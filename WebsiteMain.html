@@ -12,14 +12,15 @@
     </head>
     <body>
         <header>
-            <h1 class = "mainTitle">Little Brown Myotis Conservation</h1>
+            <h1 id = "mainTitle">Little Brown Myotis Conservation</h1>
             <img src="images/Logo.png" alt="Save the Bats Logo" />
                 <nav class = "topBar">
                     <a class = "currentPage" href="WebsiteMain.html">Main Page</a>
-                    <a href="IndustrialThreats.html">Industrial Threats</a>
+                    <a href="IndustrialThreats.html" target="_top">Industrial Threats </a>
                     <a href="EnvironmentalThreats.html">Environmental Threats</a>
                     <a href="https://wildlife-species.canada.ca/species-risk-registry/species/speciesDetails_e.cfm?sid=1173">Species at Risk</a>
                     <a href="https://www.alberta.ca/white-nose-syndrome.aspx">White Nose Syndrome</a>
+                    <a href="#footer">Bottom of Current Page</a>
                 </nav>
             </header>
             <main>
@@ -32,18 +33,21 @@
             </article>
             <article>
                 <h2>General Information</h2>
-                <p>
-                    The little brown myotis is a species of mouse-eared microbat found in North America. 
-                    It has a small body size and glossy brown fur. It is similar in appearance to several other mouse-eared bats, 
-                    including the Indiana bat, northern long-eared bat, and Arizona myotis, to which it is closely related. Despite its name, 
-                    the little brown bat is not closely related to the big brown bat, which belongs to a different genus.
+                <p id = firstLetter>
+                    The little brown myotis is a type of mouse-eared microbat found in North America. 
+                    It has a little body size and shiny dark colored hide. It is comparative in appearance to a few other mouse-eared bats, 
+                    counting the Indiana bat, northern long-eared bat, and Arizona myotis, to which it is firmly related. In spite of its name, 
+                    the little brown myotis isn't firmly identified with the large brown bat, which has a place with an alternate class.
                 <br/>
                 <br/>
-                    Its mating system is polygynandrous, or promiscuous, and females give birth to one offspring annually. 
-                    The offspring, called pups, are quickly weaned and reach adult size in some dimensions by three weeks old. 
-                    The little brown bat has a mean lifespan of 6.5 years, though one individual in the wild reached 34 years old. 
-                    It is nocturnal, foraging for its insect prey at night and roosting in hollow trees or buildings during the day, 
-                    among less common roost types. It navigates and locates prey with echolocation.
+                    Its mating framework is polygynandrous, or indiscriminate, and females bring forth one posterity yearly. 
+                    The posterity, called pups, 
+                    are immediately weaned and arrive at adult size in certain measurements by three weeks old. 
+                    The little brown myotis has a mean life expectancy of 6.5 years, 
+                    however one individual in the wild arrived at 34 years of age. It is nocturnal, 
+                    searching for its creepy crawly prey around evening time and perching in empty trees or structures during the day, 
+                    among less normal perch types.
+                    It explores and finds prey with echolocation.
                 </p>
                 <h2>Interesting Facts</h2>
                 <p>
@@ -58,7 +62,8 @@
                     If you're interested in helping out the Little Brown Myotis, please consider donating and spreading the word
                     about this amazing creature! Thank you!
                 </p>
-                <form method = "GET" action = "WebsiteMain.html" name = "donationForm">
+                <!--Takes in user input and sends to company email-->
+                <form method = "GET" action = "jrove073@mtroyal.ca" name = "donationForm">
                     <p class = "form">
                         Donate:
                         <label> 5$
@@ -96,9 +101,7 @@
                             <input name = "historyOfDonation" type = "checkbox">
                         </label>
                     </p>
-                    <p class = "form">
-                        <input name = "submit" type = "submit">
-                    </p>
+
                     <h2>Any Questions?</h2>
                     <h3>Leave feedback below.</h3>
                     
@@ -134,6 +137,7 @@
             </article>
         </main>
         <footer id="footer">
+            <a href="#mainTitle">Top of Page</a>
             <p>Save the Bats! Copyright &copy; 2020</p>
         </footer>
     </body>

@@ -1,4 +1,7 @@
-.mainTitle {
+/*
+    This is the main style page for the 3 websites
+*/
+#mainTitle {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #90ee90;
     padding: 14px 14px;
@@ -68,31 +71,20 @@ caption {
     text-transform: uppercase;
     border-top: 1px solid #013220;
 }
-table {
-    font-size: 0.8em;
-    font-family: Arial, Helvetica, sans-serif:
-    border: solid 1pt black;
-    border-top: 4px solid #013220;
-    border-collapse: collapse;
-    text-align: center;
-}
-td {
-    border: solid 1pt black;
-    padding: 10pt;
-}
-tbody tr:nth-child(even) {
-    background-color: lightgray;
-}
-tbody tr:hover {
-    background-color: whitesmoke;
-    color: black;
-}
 #footer {
     position: relative;
     left:0;
     bottom:0;
     width:100%;
     height:60px;
+    font-weight:bold;
+}
+#firstLetter::first-letter{ 
+    color:rgb(240, 60, 60);
+    font-size: 20px;
+}
+a[target] {
+    color: #90ee90;
 }
 
   
